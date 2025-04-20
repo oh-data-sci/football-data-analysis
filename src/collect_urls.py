@@ -2,9 +2,9 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import requests
 
-DATA_PATH = '../data/config/'
-URL_FILEPATH = data_path+'football_data_source_pages.txt'
-
+DATA_PATH_CONFIG = '../data/config/'
+DATA_PATH_SOURCES = '../data/source_urls/'
+URL_FILEPATH = DATA_PATH_CONFIG+'football_data_source_pages.txt'
 
 country_urls = []
 countries = []
